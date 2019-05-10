@@ -3,7 +3,7 @@
 * Action Mailbox
 * Action Text
 * multiple database
-* parallel testing
+* Parallel Testing
 * Webpacker default
 * Action Cable testing
 * Zeitwerk
