@@ -25,10 +25,6 @@ module.exports = (grunt) ->
                 ]
                 tasks: ['buildIndex']
 
-            coffeelint:
-                files: ['Gruntfile.coffee']
-                tasks: ['coffeelint']
-
             jshint:
                 files: ['js/*.js']
                 tasks: ['jshint']
@@ -44,16 +40,6 @@ module.exports = (grunt) ->
                     base: '.'
                     open: true
                     livereload: true
-
-        coffeelint:
-
-            options:
-                indentation:
-                    value: 4
-                max_line_length:
-                    level: 'ignore'
-
-            all: ['Gruntfile.coffee']
 
         jshint:
 
@@ -117,8 +103,7 @@ module.exports = (grunt) ->
             grunt.file.write 'index.html', html
 
     grunt.registerTask 'test',
-        '*Lint* javascript and coffee files.', [
-            'coffeelint'
+        '*Lint* javascript files.', [
             'jshint'
         ]
 
