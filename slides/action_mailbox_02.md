@@ -1,4 +1,4 @@
-#### Action Mailbox(前回からのアップデート)
+#### 前回からのアップデート
 
 * Amazon SESのサポートが削除された
   * [Remove the Amazon SES ingress](https://github.com/rails/rails/pull/35972)
