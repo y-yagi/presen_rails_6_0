@@ -63,7 +63,7 @@ module.exports = (grunt) ->
                     dest: 'dist/'
                 },{
                     expand: true
-                    src: ['index.html', '_config.yml']
+                    src: ['index.html', '_config.yml', '.nojekyll']
                     dest: 'dist/'
                     filter: 'isFile'
                 }]
