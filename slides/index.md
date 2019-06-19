@@ -1,3 +1,4 @@
-## Rails 6.0<br>(Component edition)
+
+## Rails 6.0 Major Features
 
 **y-yagi@Ginza.rb**
